@@ -37,7 +37,7 @@ spring:
       indent-output: true
   datasource:
     type: com.zaxxer.hikari.HikariDataSource
-    url: jdbc:mysql://localhost:3306/app?serverTimezone=GMT%2B8
+    url: jdbc:mysql://localhost:33061/app?serverTimezone=GMT%2B8
     username: root
     password: liangchao
     hikari:
@@ -115,3 +115,4 @@ jhipster:
 # ===================================================================
 
 # application:
+
